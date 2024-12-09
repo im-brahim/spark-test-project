@@ -1,6 +1,6 @@
 import findspark
 findspark.init()
-from pyspark.sql import SparkSession
+from pyspark.sql import SparkSession 
 from pyspark.sql.functions import col, sum
 from pyspark.sql.types import DoubleType
 
