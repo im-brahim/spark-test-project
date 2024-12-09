@@ -35,13 +35,13 @@ This is a mini project to demonstrate Spark processing with a sample parquet dat
 3. Install the required Python packages:
 
     ```bash
-    cd scripts
     pip install -r requirements.txt
 
 4. Run the script:
 
     ```bash
-    python scripts/test.py
+    cd scripts
+    python test.py
 
 ## Output:
 
