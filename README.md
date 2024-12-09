@@ -1,16 +1,16 @@
 # Spark Test Project
 
-This is a simple PySpark-based project that processes NYC yellow taxi trip data, demonstrating basic data transformation and saving the results in Parquet format.
+This is a mini project to demonstrate Spark processing with a sample parquet dataset "NYC yellow taxi trip" data, demonstrating how to Create a SparkSession do a basic data transformation and saving the results in CSV & Parquet format.
 
 ## Project Structure
-SPARK-TEST/ 
-├── .gitignore 
-├── scripts/ 
-│   └── test.py
-├── data/ 
-│   └── yellow_tripdata_2024-01.parquet
-├── requirements.txt 
-├── README.md
+- SPARK-TEST/ 
+    - .gitignore 
+    - scripts/ 
+        - test.py
+    - data/ 
+        - yellow_tripdata_2024-01.parquet
+    - requirements.txt 
+    - README.md
 
 ## Prerequisites
 - Python 3.10+
@@ -29,6 +29,8 @@ SPARK-TEST/
     ```bash
     python -m venv venv
     venv\Scripts\activate          # On Windows
+    source venv/bin/activate       # On macOS/Linux
+
 
 3. Install the required Python packages:
 
