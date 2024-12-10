@@ -45,5 +45,7 @@ This is a mini project to demonstrate Spark processing with a sample parquet dat
 
 ## Output:
 
-Processed Parquet file: processed_data/parquet_taxi.parquet
-Processed CSV file: processed_data/parquet_taxi.csv
+Processed CSV & Parquet file:
+- processed_data:
+    - parquet_taxi.parquet
+    - parquet_taxi.csv
